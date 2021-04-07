@@ -839,12 +839,8 @@ promotional offers*/
     display:flex;
 }
 
-
 .promoOffers-product {
     max-width: 255px;
-}
-.promoOffers-product__image {
-
 }
 
 .promoOffers-product__title {
@@ -852,6 +848,8 @@ promotional offers*/
     font-weight: 700;
     max-width: 235px;
     padding: 5px 0;
+    max-height: 334px;
+    padding-bottom: 5px;
 
 }
 
@@ -909,11 +907,61 @@ promotional offers*/
 
 .promoOffers-buttonAll {
     text-align: center;
+
     padding: 20px 0;
 }
 .promoOffers-buttonAll button {
     border-color: #59D230;
     padding: 10px 50px;
+    position:relative;
 }
 
+.promoOffers-buttonAll svg {
+    position: absolute;
+    display: block;
+    top: 16px;
+    left: 20px;
 
+}
+
+/*--------------------------------------------
+ourAdvantages*/
+
+.ourAdvantages {
+    padding-top: 30px;
+    position:relative;
+}
+.page-up {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ourAdvantages-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ourAdvantages-row  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ourAdvantages-col {
+    width: 520px;
+    height: 119px;
+    background: #FFFFFF;
+    border: 1px solid #383838;
+    box-shadow: 19px 19px 0px #101010;
+    margin: 20px;
+    display:flex;
+}
+.ourAdvantages-col__figure {
+    font-weight: 700;
+    font-size: 72px;
+    color: #59D230;
+    width: 38px;
+    height: 74px;
+    margin: 16px 42px;
+}
