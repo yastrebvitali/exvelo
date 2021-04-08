@@ -963,5 +963,98 @@ ourAdvantages*/
     color: #59D230;
     width: 38px;
     height: 74px;
-    margin: 16px 42px;
+    margin: 0px 42px;
+}
+
+.ourAdvantages-col__title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 0;
+
+}
+
+.ourAdvantages-col__content {
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/*--------------------------------------------
+contactUs*/
+
+.contactUs {
+ padding-top: 100px;
+}
+.contactUs .row {
+
+    max-width: 1110px;
+    max-height: 330px;
+    background-color: #59D230;
+}
+.contactUs-col {
+    padding-left: 46px;
+    max-width:346px;
+    width: 100%;
+    padding-bottom:46px;
+}
+.contactUs-col div,form,input {
+    padding: 10px 0;
+}
+
+.contactUs-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contactUs-content {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+.contactUs-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contactUs-form  input, button{
+    margin: 5px 0;
+    padding: 10px 10px;
+
+}
+
+.contactUs-form  input{
+    background-color: #59D230;
+    border: 1px solid #383838;
+    color:#383838;
+}
+.contactUs-button {
+    background-color:#383838;
+    width: 300px;
+    height: 45px;
+    color:#59D230;
+}
+
+.contactUs-col__img {
+    position: relative;
+
+
+}
+.contactUs-col__img img {
+    position: absolute;
+    top: -113px;
+    right: 0;
+}
+
+/*--------------------------------------------
+comment*/
+.comment {
+
 }
