@@ -20,6 +20,14 @@ body {
     color: #212529;
     background-color: #fff;
 }
+li {
+    list-style-type: none; /* Убираем маркеры */
+
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
 
 /* hr Рысует горизонтальную  линию */
 hr {
@@ -130,12 +138,12 @@ small, .small {
 }
 
 a {
-    color: #0d6efd;
-    text-decoration: underline;
+    color: white;
+    text-decoration:none;
 }
 
 a:hover {
-    color: #0a58ca;
+    color:#59D230;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -180,21 +188,8 @@ caption {
     text-align: left;
 }
 
-th {
-    text-align: inherit;
-    text-align: -webkit-match-parent;
-}
 
-thead,
-tbody,
-tfoot,
-tr,
-td,
-th {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-}
+
 
 label {
     display: inline-block;
@@ -204,9 +199,6 @@ button {
     border-radius: 0;
 }
 
-button:focus:not(:focus-visible) {
-    outline: 0;
-}
 
 input,
 button,
@@ -602,7 +594,7 @@ header-button*/
 
 .header-button ul {
     list-style: none;
-    height: 32px;
+
 }
 
 .header-button li {
@@ -834,6 +826,8 @@ promotional offers*/
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+    max-width: 97%;
+    width: 100%;
 }
 .promoOffers-pref {
     display:flex;
@@ -1065,10 +1059,12 @@ comment*/
     padding:20px;
     max-width: 350px;
     width: 100%;
-    margin: 10px;
+    margin: 12px;
 }
 
 .comment-title {
+    max-width: 97%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 21px;
@@ -1079,7 +1075,7 @@ comment*/
 }
 .comment-pref {
     display: flex;
-    width: 85px;
+    width: 50px;
     justify-content: space-around;
 }
 .comment-name  {
@@ -1135,7 +1131,7 @@ comment*/
     top: 0;
 }
 .pref-left {
-    margin-left: 10px ;
+    margin-right: 10px ;
 }
 
 /*--------------------------------------------
@@ -1157,7 +1153,9 @@ blog*/
 .blog-col {
     display: flex;
 }
-
+.blog-img {
+    padding:0 5px;
+}
 .blog-title span{
     font-size: 12px;
     font-weight: 400;
@@ -1177,6 +1175,7 @@ blog*/
     line-height: 14px;
 
 
+
 }
 .blog-col__date {
     color: #383838;
@@ -1184,15 +1183,49 @@ blog*/
     font-size: 10px;
     font-weight: 400;
     line-height: 12px;
-
+    padding-top: 5px;
 }
 /*--------------------------------------------
 blog*/
 .footer {
-    margin-top: 200px;
-    max-height: 340px;
+    padding-top: 20px;
+    margin-top: 50px;
     width: 100%;
     background-color: #383838;
     color: white;
     width: 100%;
+}
+.footer li {
+    line-height: 2.5;
+}
+
+.footer-logo__content {
+    max-width: 191px;
+    width: 100%;
+    color: #939393;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.li-activ {
+    color:#59D230;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.main-color-gray {
+    color: #939393;
+    font-weight: 400;
+    font-size: 10px;
+}
+.lh1 {
+    line-height: 1;
+}
+.footer-button {
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #939393;
+    padding: 10px 0;
+    color: #939393;
 }
