@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>exvelo</title>
+    <title>Интернет магазин exvelo</title>
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -21,8 +21,16 @@
                 </div>
 
                 <div class="tel-number col-3 ">
-                    <span>+38050 533 63 99</span>
-                    <span>+38095 533 63 99 </span>
+                    <div  class="tel-number__ico ">
+                        <svg display="none" width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.9036 17.728C22.5203 16.4822 20.8911 15.2364 17.7286 13.7989C16.387 13.128 14.7578 13.4155 13.7036 14.5655C12.6495 13.8947 11.6911 13.0322 10.8286 12.1697C9.96613 11.3072 9.19946 10.3489 8.4328 9.29471C9.48696 8.24054 9.8703 6.61138 9.19946 5.26971C7.76196 2.10721 6.51613 0.478042 5.2703 0.094709C4.79113 -0.0969577 4.31196 -0.00112434 3.92863 0.190542C3.73696 0.286376 -0.192203 2.58638 -0.000535893 4.40721C0.382797 8.43221 3.73696 13.128 6.80363 16.1947C9.8703 19.2614 14.5661 22.6155 18.5911 22.9989H18.687C20.5078 22.9989 22.712 19.2614 22.8078 19.0697C22.9995 18.6864 23.0953 18.2072 22.9036 17.728ZM21.4661 18.3989C20.6995 19.7405 19.1661 21.5614 18.5911 21.5614C14.9495 21.2739 10.637 18.1114 7.76196 15.1405C4.88696 12.1697 1.72446 7.95304 1.43696 4.31138C1.43696 3.83221 3.2578 2.29888 4.59946 1.43638H4.6953H4.79113C5.17446 1.53221 6.1328 2.20304 7.8578 5.84471C8.33696 6.80304 7.95363 7.95304 7.09113 8.52804C6.80363 8.71971 6.7078 9.19888 6.89946 9.48637C7.76196 10.828 8.7203 12.0739 9.77446 13.128C10.9245 14.1822 12.0745 15.2364 13.4161 16.003C13.7995 16.1947 14.1828 16.0989 14.3745 15.8114C14.9495 14.9489 16.0995 14.5655 17.0578 15.0447C20.6995 16.6739 21.3703 17.728 21.4661 18.1114C21.562 18.2072 21.562 18.303 21.4661 18.3989Z"
+                                  fill="#59D230"/>
+                        </svg>
+                    </div>
+                    <div class="tel-number__content">
+                        <span>+38050 533 63 99</span>
+                        <span>+38095 533 63 99 </span>
+                    </div>
 
                     <button style="display: none" class="btn">
                         <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,11 +91,12 @@
             </div>
         </div>
     </div>
+    <!-- header-button  -->
     <div class="header-button">
         <div class="container">
-            <nav>
-                <ul class="flex">
-                    <li class="" style="  background-color: white; height: 100%;    border: 0;"><a href="">
+            <nav style="display: flex">
+                <div class="header-button__catalog">
+                    <a href="">
                         <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="20" height="1.5" fill="#383838"/>
                             <rect y="4" width="20" height="1.5" fill="#383838"/>
@@ -99,7 +108,9 @@
                         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 0.954545L0.96 0L6 5.07818L11.04 0L12 0.954545L6 7L0 0.954545Z" fill="#383838"/>
                         </svg>
-                    </a></li>
+                    </a>
+                </div>
+                <ul class="flex">
                     <li class="li-line"><a href=""><span>ВЕЛОСИПЕДЫ</span></a></li>
                     <li class="li-line"><a href=""><span>АКСЕССУАРЫ</span></a></li>
                     <li class=""><a href=""><span>ЗАПЧАСТИ</span></a></li>
@@ -116,14 +127,13 @@
     <!--section banner -->
     <section class="banner">
         <div class="container">
-            <div class="row">
-                <div class="col pos-rel m-r20">
+            <div class="banner-row">
+                <div class="banner-col-one ">
                     <img src="images/banner/MaskGroup0.jpg" alt="">
-
                     <div class="banner-title">
                         <p> Предзаказ велосипедов <br> <span> Трек 2021</span> года
-                        <p>
-                            <button class="btn">Подробние</button>
+                        </p>
+                        <button class="btn">Подробние</button>
                     </div>
                     <div class="banner-indicator">
                         <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,24 +154,24 @@
                     </div>
                 </div>
 
-                <div class="col pos-rel">
-                    <div>
+                <div class="banner-col-dwo">
+                    <div class="banner-col__inner-one">
                         <div class="banner-title__leftOne">
                             <b>Соберите уникальный <br> велосипед!</b>
                             <p>Мы предлагаем услуги по индивидуальной <br>
                                 сборке и настройке велосипедов</p>
                             <button class="btn">Хочу свой велосипед</button>
                         </div>
-                        <img style="width: 352px;" src="images/banner/MaskGroup1.jpg" alt="">
+                        <img  src="images/banner/MaskGroup1.jpg" alt="">
                     </div>
 
-                    <div style="padding-top: 27px;" class="pos-rel">
+                    <div class="banner-col__inner-dwo">
                         <div class="banner-title__leftWho">
                             <p>Выбирайте велосипед <br>
                                 и запчасти в нашем</p>
                             <a href="">каталоге</a>
                         </div>
-                        <img style="width: 352px;" src="images/banner/MaskGroup2.jpg" alt="">
+                        <img  src="images/banner/MaskGroup2.jpg" alt="">
                     </div>
                 </div>
 
@@ -1045,7 +1055,7 @@
                     </li>
                     <li class="li-activ">
                         Подписывайтесь на нас
-                        <div >
+                        <div>
                             <a class="pd20" href=""> <img src="images/footer/f.png" alt=""> </a>
                             <a class="pd20" href=""> <img src="images/footer/instogram.png" alt=""> </a>
                             <a class="pd20" href=""> <img src="images/footer/yootube.png" alt=""> </a>
