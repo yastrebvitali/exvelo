@@ -296,14 +296,12 @@ section banner*/
 .banner-col-one {
     position: relative;
     width: 70%;
-    max-width: 785px;
     padding: 0 10px;
 }
 
 .banner-col-dwo {
     position: relative;
     width: 30%;
-    max-width: 352px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -357,6 +355,7 @@ section banner*/
 .banner-indicator {
     position: absolute;
     bottom: 10px;
+    left: 0;
     left: 0;
     right: 0;
     text-align: center;
